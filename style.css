@@ -114,7 +114,7 @@ margin-bottom: 5rem;
 
 
 .container__large {
-    display: flex;
+    display: grid;
     justify-content: center;
     gap: 1rem;
     color: black;
@@ -123,6 +123,7 @@ margin-bottom: 5rem;
 }
 
 .poster-dracula {
+    grid-column: 3 / span 2;
     border-top-left-radius: 10rem;
     border-top-right-radius: 10rem;
     background-color: white;
@@ -135,6 +136,7 @@ margin-bottom: 5rem;
 
 .container__large img {
     height: 23rem;
+    margin-top: -1px;
 }
 
 .container__large h2 {
